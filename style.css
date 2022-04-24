@@ -141,40 +141,49 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-.summary{
+.prevention{
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
 }
-
-.summary h3{
-    font-size: 2.5rem;
-    color:#fff;
+.prevention p{
+    font-size: 24px;
 }
 
-.summary h1{
+.prevention ul li{
+    font-size: 16px;
+    padding: 1%;
+}
+
+.prevention h3{
+    margin-top: 2%;
+    font-size: 2.5rem;
+    color:black;
+}
+
+.prevention h1{
     font-size:5rem;
     color:black;
 }
 
-.summary h1 span{
+.prevention h1 span{
     color:var(--yellow);
 }
 
-.summary p{
+.prevention p{
     font-size:14px;
     color:black;
     padding: 1rem 0;
 }
-.summary img{
+.prevention img{
     height:40%;
     width:40%;
     justify-content: flex-start;
 
 }
 
-.prevention .row{
+.summary .row{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,32 +191,32 @@ header .navbar ul li a:hover{
     padding:1rem 0;
 }
 
-.prevention .row .info{
+.summary .row .info{
     flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
 }
 
-.prevention .row .info h3{
+.summary .row .info h3{
     font-size: 2rem;
     color:var(--yellow);
     padding:1rem 0;
     font-weight: normal;
 }
 
-.prevention .row .info h3 span{
+.summary .row .info h3 span{
     color:black;
     padding:0 .5rem;
 }
 
-.prevention .row .counter{
+.summary .row .counter{
     flex:1 1 48rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.prevention .row .counter .box{
+.summary .row .counter .box{
     width:20rem;
     background:#222;
     text-align: center;
@@ -215,65 +224,20 @@ header .navbar ul li a:hover{
     margin:2rem;
 }
 
-.prevention .row .counter .box span{
+.summary .row .counter .box span{
     font-size: 4rem;
     color:var(--yellow);
 }
 
-.prevention .row .counter .box h3{
+.summary p{
+    font-size: 14px;
+}
+
+.summary .row .counter .box h3{
     font-size: 2rem;
     color:white;
 }
 
-.education .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding:1rem 0;
-    padding-left: 3rem;
-}
-
-.education .box-container .box{
-    width:27rem;
-    margin:4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
-    position: relative;
-}
-
-.education .box-container .box span{
-    font-size: 1.3rem;
-    background:#222;
-    color:#fff;
-    border-radius: 5rem;
-    padding:.5rem 2.5rem;
-}
-
-.education .box-container .box h3{
-    font-size: 2rem;
-    color:#fff;
-    padding-top: 1.5rem;
-}
-
-.education .box-container .box p{
-    font-size: 1.4rem;
-    color:#eee;
-    padding: 1rem 0;
-}
-
-.education .box-container .box i{
-    position: absolute;
-    top:-1.5rem; left:-2.5rem;
-    height:5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color:#fff;
-    background:var(--yellow);
-}
 
 .portfolio .box-container{
     display: flex;
@@ -395,7 +359,7 @@ header .navbar ul li a:hover{
         font-size: 55%;
     }
 
-    .summary{
+    .summaryyy{
         padding:1rem 4rem;
     }
 
@@ -439,7 +403,7 @@ header .navbar ul li a:hover{
         margin:0 3rem;
     }
 
-    .prevention .row .counter .box{
+    .summary .row .counter .box{
         width: 100%;
     }
  
