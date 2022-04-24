@@ -266,6 +266,10 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+.control p{
+    font-size: 14px;
+}
+
 .control .row{
     display: flex;
     align-items: center;
