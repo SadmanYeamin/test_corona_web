@@ -368,7 +368,7 @@ header .navbar ul li a:hover{
         font-size: 55%;
     }
 
-    .summaryyy{
+    .prevention{
         padding:1rem 4rem;
     }
 
@@ -415,14 +415,14 @@ header .navbar ul li a:hover{
     .summary .row .counter .box{
         width: 100%;
     }
+
+    .prevention .row{
+        width: 100%;
+    }
  
 
-    .portfolio .box-container .box{
-        width:100%;
-    }
-
-    .control .row form{
-        margin:3rem 0;
+    .control .row{
+        width: 100%;
     }
 
  }
