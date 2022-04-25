@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#34a4eb;
+    --blue:#34a4eb;
 }
 
 *{
@@ -15,7 +15,7 @@
 }
 
 *::selection{
-    background:var(--yellow);
+    background:var(--blue);
     color:#333;
 }
 
@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 body{
@@ -63,7 +63,8 @@ section{
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:var(--blue);
+    color: black;
 }
 
 .heading{
@@ -76,7 +77,7 @@ section{
 }
 
 .heading span{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 header{
@@ -98,7 +99,11 @@ header{
 header .user .name{
     font-size: 3.5rem;
     color:black;
+    font-weight: bold;
 }
+
+
+
 
 header .user .post{
     font-size: 2rem;
@@ -126,7 +131,8 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background:var(--yellow);
+    background-color: #fff;
+    color: black;
 }
 
 #menu{
@@ -162,13 +168,9 @@ header .navbar ul li a:hover{
     color:black;
 }
 
-.prevention h1{
-    font-size:5rem;
-    color:black;
-}
 
 .prevention h1 span{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .prevention p{
@@ -183,12 +185,11 @@ header .navbar ul li a:hover{
 
 }
 
-.summary .row{
+.summary{
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    padding:1rem 0;
+    flex-flow: column;
+    padding:0 5rem 0 0;
 }
 
 .summary .row .info{
@@ -199,7 +200,7 @@ header .navbar ul li a:hover{
 
 .summary .row .info h3{
     font-size: 2rem;
-    color:var(--yellow);
+    color:var(--blue);
     padding:1rem 0;
     font-weight: normal;
 }
@@ -226,11 +227,13 @@ header .navbar ul li a:hover{
 
 .summary .row .counter .box span{
     font-size: 4rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .summary p{
-    font-size: 14px;
+    font-size: 16px;
+    text-align: justify;
+  text-justify: inter-word;
 }
 
 .summary .row .counter .box h3{
@@ -267,14 +270,16 @@ header .navbar ul li a:hover{
 }
 
 .control p{
-    font-size: 14px;
+    font-size: 16px;
+    text-align: justify;
+  text-justify: inter-word;
 }
 
-.control .row{
+.control{
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-flow: column;
+    padding:0 5rem 0 0;
 }
 
 .control .row .content{
@@ -327,7 +332,7 @@ header .navbar ul li a:hover{
 
 .control .row .content .info h3 i{
     padding-right: 1rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .top{
